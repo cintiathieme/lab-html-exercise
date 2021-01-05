@@ -145,13 +145,19 @@ header > div {
       color: #ED1C24;
     }
 
-  #org {
-    background-color: black;
-    color: white;
-    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
-    text-decoration: none;
-    padding: 10px 100px;
-  }
+    .org {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .org a {
+      color: white;
+      background: black;
+      text-decoration: none;
+      padding: 10px 100px;
+      margin-bottom: 60px;
+      box shadow: 8px 8px 0 rgba(128,83,35,.2);
+      }
 
   
 
