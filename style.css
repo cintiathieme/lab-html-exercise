@@ -12,8 +12,12 @@ header > div {
     border-bottom: 1px solid lightgray;
   }
   
+  header a {
+    font-weight: 600;
+  }
+
   nav {
-    width: 600px;
+    width: 800px;
   }
   
   nav ul {
@@ -26,6 +30,7 @@ header > div {
   nav a {
     text-decoration: none;
     color: black;
+    font-weight: 600;
   }
   
   .blackHeart {
@@ -33,22 +38,53 @@ header > div {
     margin-right: 1rem;
   }
 
-  form input {
-    color: rgba(0,0,0,.05)
+  flex {
+    display: flex;
   }
 
-  form button {
+  flex input {
+    color: rgba(0,0,0,.05);
+    background-color:rgb(245, 243, 243);
+    border: none;
+    width: 1300px;
+        }
+  
+      
+  flex button {
       background-color: #fb3e44;
       color: white;
+      border: none;
+      padding: 8px 12px;
   }
 
   .npm-logo {
-      width: 150px;
-      margin-right: 1rem;
-  }
+      width: 90px;
+   }
 
   .glass {
-      width: 15px;
+      width: 12px;
+      background-color: rgb(245, 243, 243);
+      
+            }
+  
+  div ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;   
+  }
+
+  .join-log {
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-right: 1rem;
+    font-weight: lighter;
+    }  
+    
+  #join {
+    border:black;
+
   }
 
   .amazing {
@@ -83,7 +119,7 @@ header > div {
         box-shadow: 8px 8px 0  rgba(251,59,73,.2);
     }
 
-    #join {
+    #join-free {
         background-color: white;
         color: black;
     }
@@ -120,7 +156,6 @@ header > div {
     }
 
   .section3 {
-    height: 600px;
     justify-content: center;
   }
 
@@ -155,9 +190,10 @@ header > div {
       background: black;
       text-decoration: none;
       padding: 10px 100px;
-      margin-bottom: 60px;
+      margin: 60px;
       box shadow: 8px 8px 0 rgba(128,83,35,.2);
       }
+      
 
   
 
